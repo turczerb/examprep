@@ -15,6 +15,7 @@ const FruitList = (props) => {
             name={item.name}
             family={item.family}
             order={item.order}
+            nutritions={item.nutritions}
           />
         );
       })}
